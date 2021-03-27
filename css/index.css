@@ -1,3 +1,25 @@
+#background-image-left{
+	background-image: url(Prota.png);
+	background-position: left;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 37%;
+
+}
+
+#background-image-right{
+	background-image: url(Elizabeth.png);
+	background-position: right;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 37%;
+}
+
+
 #title {
 	text-align: center;
 }

@@ -10,13 +10,18 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@font-face {
+  font-family: PersonaFont;
+  src: url(../PersonaFont.TTF);
+}
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
   background-color: #303E8C;
   color: #D5E7F2;
+  z-index: 0;
+  font-family: PersonaFont;
 }
 
 /*
@@ -261,5 +266,7 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+
 }
 
